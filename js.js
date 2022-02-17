@@ -16,8 +16,8 @@ function showTime()
    let saat= clock.getHours();
    let saniye= clock.getSeconds();
    let dakika= clock.getMinutes();
-   let gün=haftalar[clock.getDay()];
-    let zaman= saat+ " :"+ dakika+ ":" + saniye+ " :"+ gün;
+   let gun=haftalar[clock.getDay()];
+    let zaman= saat+ " :"+ dakika+ ":" + saniye+ " :"+ gun;
    document.querySelector("#myClock").innerHTML=zaman;
 
    var t = setTimeout(function () {
